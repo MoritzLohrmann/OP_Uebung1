@@ -1,12 +1,14 @@
 package gui;
 
-public class Main {
+import javafx.application.Application;
+import javafx.stage.Stage;
+public class Main extends Application {
+ @Override
+ 	public void start(Stage primaryStage) {
+	 new Anwendungssystem(primaryStage);
+ }
 
-	public static void main(String[] args) {
-		System.out.println("Guten Tag");
-		
-		System.out.println("Das wurde geändert");
-
-	}
-
+ public static void main(String[] args){
+	 launch(args);
+ }
 }
