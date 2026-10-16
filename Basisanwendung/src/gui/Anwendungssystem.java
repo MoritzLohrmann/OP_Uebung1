@@ -42,7 +42,7 @@ public class Anwendungssystem{
  /* initialisiert die Steuerelemente auf der Maske */
  private void initKomponenten(){
  grid.add(lblAnzeige, 1, 0);
- lblAnzeige.setFont(Font.font("Arial", FontWeight.BOLD, 24));
+ lblAnzeige.setFont(Font.font("Arial", FontWeight.BOLD, 28));
  grid.add(txtAnzeige, 1, 1);
  txtAnzeige.setMaxSize(170, 100);
  txtAnzeige.setBackground(new Background(
